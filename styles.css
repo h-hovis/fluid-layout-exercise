@@ -1,0 +1,53 @@
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: #9a0404;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+}
+
+.column {
+    background-color: azure;
+}
+
+.services {
+    width: 25%;
+    float: left; 
+}
+
+.testimonials {
+    width: 25%;
+    float: right;
+}
+
+.main-content {
+    width: 50%;
+    float: left;
+}
+
+.container {
+    text-align: left;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
+h2 {
+    text-align: center;
+}
+
+footer {
+    background-color: #9b3838;
+    text-align: left;
+    margin-top: auto;
+}
